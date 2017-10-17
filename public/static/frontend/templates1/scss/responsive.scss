@@ -1,0 +1,31 @@
+
+@media only screen and  (max-width: 1000px){
+	.page{
+		.wrapper_main{
+			width: 100%;
+		}
+	}
+	.block{
+		.block_left{
+			margin-left: 5%;
+		}
+	}
+    
+    .menu{
+        ul{
+            li {
+                width: initial;
+                height: 45px;
+                padding: 2px 10px;
+            }
+        }
+    }
+}
+
+@media only screen and  (max-width: 600px){
+	.block{
+		.block_left{
+			margin-left: 0%;
+		}
+	}
+}

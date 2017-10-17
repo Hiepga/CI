@@ -1,0 +1,77 @@
+
+@media only screen and (max-width: 780px) {
+	#header{
+		display: none;
+	}
+	.header-mobile{
+		display: block;
+	}
+	#main{
+		margin: 0px;
+		top: 5%;
+		#home{
+			.home_style {
+			    padding: 20% 0px;
+			    .infor-profile{
+			    	p{
+						width: 70%;
+			    	}
+			    }
+			}
+		}
+		#profile{
+			.profile-style{
+				.img-profile{
+					display: none;
+				}
+			}
+		}
+
+		#portfolio{
+			.portfolio-style{
+				.list-project{
+					margin: 0px auto;
+					width: 95%;
+					li{
+						width: 49%;
+					}
+				}
+			}
+		}
+		#resume{
+			.resume-style{
+				a.download{
+					float: inherit;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#main{
+		#portfolio{
+			.portfolio-style{
+				.list-project{
+					width: 90%;
+					li{
+						width: 100%;
+					}
+					.item-project{
+						img{
+							width: 100%;
+						}
+						.hover-project{
+							ul.btn-link{
+								li{
+									width: 30%;
+									display: inline-block;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,118 @@
+$border		:	#000;
+$font-size	:	14px;
+$font-family:	tahoma;
+
+
+.detail_style{
+	width: 100%;
+	padding: 2% 0%;
+	line-height: 30px;
+	font-family: $font-family;
+	font-size: $font-size;
+	table{
+		border-collapse: collapse;
+		font-family: Tahoma;
+		margin-top: 10px;
+		tr{
+			td{
+				border: 1px solid $border;
+				vertical-align: middle;
+				color: #4e4029;
+				font-weight: normal;
+				text-align: center;
+				img{
+					border: none;
+					padding: 0px;
+					margin: 15px 0px 0px 0px;
+				}
+				
+			}
+			&:first-child td {
+			    background-color: $border;
+			    color: #fff;
+			    font-weight: bold;
+			    text-align: center;
+			    border-right: 1px solid #fff;
+			    strong{
+					color: #fff;
+				}
+				&:last-child{
+					border-right: 1px solid #2e9d83;
+				}
+			}
+		}
+	}
+	fieldset {
+	    border: 1px solid $border;
+	    margin: 20px 0px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    legend {
+		    color: #fff;
+		    background-color: $border;
+		    padding: 0px 10px;
+		    font-weight: bold;
+		}
+	}
+	ul{
+		margin-left: 40px;
+	}
+	a{
+		text-decoration: none;
+		color: #a60909;
+		&:hover{
+			color: #000;
+		}
+	}
+	img{
+		border: 1px solid $border;
+		padding: 1px;
+		max-width: 100%;
+		margin: 10px auto;
+		text-align: center;
+	}
+	.box-none{
+		img{
+			border: none;
+		}
+	}
+	h1{
+	    color: #000;
+	    font-size: 20px;
+	    padding-left: 40px;
+	    background: url(../images/icon-h1.png) no-repeat 0px 4px;
+	    margin-bottom: 10px;
+	    margin-top: 10px;
+	    font-weight: 600;
+	}
+	h2 {
+	    font-size: 18px;
+		padding-left: 40px;
+		background: url(../images/icon-h2.png) no-repeat 10px 8px;
+	    margin-bottom: 10px;
+	    margin-top: 10px;
+	    color: #000;
+	}
+	strong{
+		font-weight: bold;
+	}
+	em{
+		font-style: italic;
+	}
+	.content-event-first{
+		float: left;
+		font-size: 55px;
+		line-height: 5px;
+		margin: 10px 2px 0px 0px;
+	}
+	blockquote {
+	    padding: 10px 20px;
+	    margin: 0 0 20px;
+	    line-height: 35px;
+	    border-left: 5px solid #eee;
+	    p{
+	    	font-size: 16px;
+	    	line-height: 30px;
+	    }
+	}
+}

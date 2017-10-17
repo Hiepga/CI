@@ -1,0 +1,28 @@
+//------------- FONT_PAGE ------------
+@font-face {
+    font-family: "AvoBold";
+    src: url('../fonts/UTM AvoBold_0.ttf');
+}
+@font-face {
+    font-family: "Avo";
+    src: url('../fonts/UTM Avo_0.ttf');
+}
+$font : UTMGods;
+$font2: UVNLongquan;
+
+//------------ COLOR_PAGE ------------
+
+$color_page       : #282828;
+$color_a          : #777777;
+$color_a_hover    : #8ac42f;
+$color_menu       : #fff;
+$color_menu-hover : #2a6bae;
+$color_white      : #fff;  
+
+//--------- FONT_SIZE_PAGE ------------
+$size_page  : 14px;
+$size_menu  : 16px;
+h1{font-size: 20px;}
+h2{font-size: 18px;}
+h3{font-size: 16px;}
+h4{font-size: 14px;}
